@@ -1,0 +1,108 @@
+body {
+    border: 15px groove rgb(106, 161, 42);
+    padding: 15px;
+    margin: 0px;
+    background-image: url(./BackGround.png);
+    background-size: cover;
+}
+.layout-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.box1 {
+    color: aliceblue;
+    border: 5px solid red;
+    background-color: black;
+    padding: 15px;
+    width: 350px;
+    height: 150x;
+    border-radius: 30px;
+    margin-right: -50%;
+}
+.box2 {
+    color: aliceblue;
+    text-align: right;
+    border: 5px solid red;
+    background-color: black;
+    padding: 15px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    width: 350px;
+    height: 60px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+.box3 {
+    color: aliceblue;
+    text-align: center;
+    border: 5px solid red;
+    background-color: black;
+    padding: 15px;
+    width: 350px;
+    height: 150x;
+    border-radius: 30px;
+}
+.layout-2 {
+    display: flex;
+    margin-top: 50px;
+}
+.left {
+    border: 5px solid grey;
+    border-radius: 50%;
+    background-color: rgb(68, 169, 159);
+    padding: 15px;
+    width: 350px;
+    height: 280px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+    margin-top: 200px;
+    margin-left: 150px;
+
+}
+.right {
+    border: 5px dashed red;
+    background-color: white;
+    color: rgb(223, 126, 126);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+.cbox{
+    justify-content: center;
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+    border: 5px solid red;
+    background-color: black;
+    padding: 15px;
+    width: 450px;
+    border-radius: 30px;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.food {
+    border: 3px solid rgb(63, 113, 38);
+    border-radius: 30px;
+    background-color: rgb(99, 251, 253);
+    color: rgb(89, 42, 138);
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    width: 25%;
+    margin-top: 25px;
+    height: 300px;
+    align-self: stretch;
+}
+.last {
+    align-self: stretch;
+    height: 325px;
+}
