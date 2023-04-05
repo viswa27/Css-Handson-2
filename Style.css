@@ -102,10 +102,8 @@ body {
     width: 25%;
     margin-top: 25px;
     height: 300px;
-    align-self: stretch;
 }
 
 .last {
-    align-self: stretch;
     height: 325px;
 }
